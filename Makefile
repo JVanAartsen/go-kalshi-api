@@ -9,6 +9,7 @@ source:
 		--additional-properties=packageName=kalshiAPI,generateInterfaces=true \
 		--input-spec '/local/openapi.json' \
 		--output '/local/'
+	go mod tidy
 
 
 clean-source:
